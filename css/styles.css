@@ -103,7 +103,7 @@ video {
     display: inline;
     padding: 10px;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.25em;
 }
 
 ul li a, ul a :hover, ul li a:focus, ul li a:active {
@@ -153,6 +153,9 @@ ul li a, ul a :hover, ul li a:focus, ul li a:active {
     }
     .burger{
         display: none;
+    }
+    .main-menu li{
+        font-size: 0.75em;
     }
  }
  @media (min-width: 0px) and (max-width: 640px) { 
