@@ -1,7 +1,7 @@
 /* Organized by element grouping */
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body {
     background: url("../imgs/banner.png") no-repeat top;
     background-attachment: fixed;
@@ -87,6 +87,7 @@ video {
     background-color: #ffffff;
     text-align: center;
     transition: right .3s ease;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .menuholder ul {
