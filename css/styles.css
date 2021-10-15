@@ -1,0 +1,214 @@
+/* Organized by element grouping */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+    background: url("../imgs/banner.png") no-repeat top;
+    background-attachment: fixed;
+    background-size: auto auto;
+    color: #000;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1em;
+    height: 100%;
+}
+
+li {
+    line-height: 1.6em;
+}
+
+
+
+#page {
+    max-width: 940px;
+    max-height: auto;
+    margin: 10px auto 10px auto;
+    border: 4px #000;
+    background-color: #ffc2d8;
+    vertical-align: baseline;
+    overflow: hidden;
+}
+
+.logo {
+    max-height: 100%;
+    float: left;
+}
+.row {
+    max-height: 20%;
+    /* overflow: auto; */
+    display: flex;
+    margin-bottom: 5%;
+}
+
+
+iframe{
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.frame {
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    background-color: #f68bb2;
+    overflow: visible;
+}
+
+.description {
+    
+    float: left;
+    width: 40%;
+    height: 100%;
+    margin-left: 5%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    background-color: #f68bb2;
+    /* overflow:visible; */
+}
+
+.center-text {
+    text-align: center;
+}
+
+video {
+    width: 940px;
+}
+
+.menu-holder {
+    width: 100%;
+    max-width: 940px;
+    overflow: auto;
+    display: inline-block;
+    max-height: fit-content;
+    background-color: #ffffff;
+    text-align: center;
+    transition: right .3s ease;
+}
+
+.menuholder ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#header-main-menu{
+    float: right;
+}
+
+.main-menu li{
+    display: inline;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+}
+
+ul li a, ul a :hover, ul li a:focus, ul li a:active {
+    border: none;
+    color: inherit;
+    text-decoration: none;
+}
+
+.burger{
+    display: none;
+}
+
+
+
+@media (min-width: 641px) and (max-width: 1023px) { 
+    body{
+         
+         background: none;
+         background-color: #ffc2d8;
+        margin: 0%;
+        font-size: 1.25em;
+    }
+ 
+    #page{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        margin: 0;
+    }
+    
+
+    .menu-holder{
+        max-width: 100%;
+    }
+    video{
+        width: 100%;
+    }
+    .description{
+        margin: 0%;
+        width: 47.5%;
+        padding: 1%;
+    }
+    .frame{
+        margin-left: 5%;
+        width: 47.5%;
+
+    }
+    .burger{
+        display: none;
+    }
+ }
+ @media (min-width: 0px) and (max-width: 640px) { 
+    body{
+        background: none;
+         background-color: #ffc2d8;
+        margin: 0%;
+       font-size: 1.5em !important;
+       background-color: #000;
+   }
+   #header-main-menu{
+       display: none;
+   }
+   .burger{
+       display: unset;
+        float: right;
+        max-height: 5vh;
+        width: auto;
+    }
+    .logo{
+        max-height: 5vh;
+        width: auto;
+    }
+   #page{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0;
+    }
+
+    .menu-holder{
+        max-width: 100%;
+        max-height: 5vh;
+    }
+    video{
+        width: 100%;
+    }
+    .row{
+        display: inline-block;
+        max-height: none;
+    }
+    .description{
+        margin-left: 0%;
+        width: 100%;
+        margin-bottom: 3%; 
+        padding: 1%;
+        float: none;
+    }
+    .frame{
+        width: 100%;
+        float: none;
+        height: 50vh;
+        margin-left: 0%;
+    }
+} 
+
+
+ 
+
+ 
